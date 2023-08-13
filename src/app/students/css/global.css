@@ -1,0 +1,146 @@
+
+.invoiceData .MuiDataGrid-cell{
+    border: none !important;
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.invoiceShowData .MuiDataGrid-cell{
+    border: none !important;
+    color: #000;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.invoiceData .MuiDataGrid-row:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.invoiceData .MuiDataGrid-row{
+    display: flex;
+    align-items: center;
+    max-height: none !important;
+    height: 85px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.invoiceData .MuiDataGrid-columnHeaderTitleContainer{
+    color: #ACACAC;
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 22px 0 21.5px 0;
+}
+.invoiceData,.invoiceShowData .MuiDataGrid-footerContainer,.MuiDataGrid-withBorderColor{
+    border: none;
+}
+.invoiceShowData .MuiDataGrid-virtualScroller::-webkit-scrollbar {
+    display: none;
+}
+
+.invoiceData .MuiTablePagination-selectLabel,.MuiTablePagination-displayedRows {
+    font-family: Mulish-Regular !important;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color:#9FA2B4;
+}
+.invoiceData .MuiDataGrid-cell:last-child,.MuiDataGrid-cell:nth-last-child(2){
+    padding: 0 !important;
+}
+
+.invoiceData MuiDataGrid-root{
+    border: none;
+}
+.invoiceData .MuiDataGrid-root::-webkit-scrollbar {
+    display: none;
+}
+.invoiceShowData .MuiDataGrid-row:not(:last-child){
+    display: flex;
+    align-items: center;
+    max-height: none !important;
+    height: 60px;
+    box-sizing: content-box;
+    border-radius: 0px;
+    background-color: white;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.invoiceShowData .MuiDataGrid-row:nth-child(even){
+    background-color: #f6f6f6;
+}
+
+.invoiceShowData .MuiDataGrid-columnHeaders{
+    margin-top: 1em;
+    background-color: #f6f6f6;
+    border: 2px solid rgba(224, 224, 224, 1);
+    border-left: none;
+    border-right: none;
+}
+.invoiceShowData .MuiBox-root {
+    padding: 0.5em 0;
+    height: auto !important;
+}
+.invoiceShowData .MuiDataGrid-root::-webkit-scrollbar{
+    display: none;
+}
+.invoiceShowData .MuiDataGrid-cell{
+    font-size: 10px;
+}
+.invoiceShowData .MuiDataGrid-row .MuiDataGrid-cell{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    white-space: break-spaces;
+}
+.modal .MuiPaper-root{
+    box-shadow: none !important;
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.modal-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px !important;
+    background-color: white;
+    padding: 2em 1em;
+}
+.modal-wrapper:focus-visible{
+    outline: none;
+}
+
+.modal .MuiBox-root{
+    border-radius: 10px !important;
+}
+.modal{
+    overflow-y: scroll;
+    padding-top: 1em;
+}
+.inside-modal .modal-wrapper{
+    padding: 1em 1em 0 1em;
+}
+
+.headText{
+    font-size: 12px;
+}
+.contentText{
+    font-size: 10px;
+}

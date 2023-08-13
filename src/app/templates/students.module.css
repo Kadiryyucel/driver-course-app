@@ -1,0 +1,15 @@
+.pageHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: relative;
+    padding: 0 30px;
+    background-color: white;
+}

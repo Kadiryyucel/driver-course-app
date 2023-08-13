@@ -1,0 +1,38 @@
+const tr = {
+    translation: {
+        "add":"Ekle",
+        "add_new_invoice":"Yeni Fatura Ekle",
+        "address":"Adres",
+        "an_error_occurred":"Bir Hata Oluştu!",
+        "are_you_sure":"Emin misin?",
+        "business_expenses":'İş Giderleri',
+        "cancel":"Vazgeç",
+        "city":"Şehir",
+        "confirm":"Onayla",
+        "country":"Ülke",
+        "currency":"Para Birimi",
+        "dollar":"Dolar",
+        "due_date":"Bitiş Tarihi",
+        "first_name":"Adı",
+        "invoice_date":"Kesim Tarihi",
+        "invoices":"Faturalar",
+        "late":"Ödeme Tarihi Geçmiş",
+        "material_expenses":"Malzeme Giderleri",
+        "note":"Not",
+        "outstanding":"Ödenmemiş",
+        "paid":"Ödendi",
+        "payment_due":"Vadesi Gelen Ödeme",
+        "person":"Kişi",
+        "phone":"Telefon",
+        "price": "Ücret",
+        "process_is_successful":"İşlem Başarılı!",
+        "quantity": "Miktar",
+        "search":"Arama",
+        "service": "Hizmet",
+        "surname":"Soyadı",
+        "warning":"Uyarı",
+        "you_can_pay_by_bank_or_EFT": "Bankadan yada Eft yollu ile ödeme gerçekleştirebilirsiniz.",
+
+    }
+}
+export default tr

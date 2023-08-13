@@ -1,0 +1,263 @@
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(49deg, #FEAF00 0%, #F8D442 100%);
+}
+.card{
+    position: relative;
+    width: 475px;
+    height: 550px;
+    padding: 0 30px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.headerContent{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    color: #000;
+    font-size: 28px;
+    font-family: Montserrat-Bold;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 40px 0 0 20px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header > p{
+    color: #6C6C6C;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.headerTitle{
+    color: #000;
+    font-size: 22px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+}
+.showHeader{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+.invoiceContent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+}
+.invoiceShowData MuiDataGrid-row{
+    border-radius: 0px;
+    border: 0px;
+}
+.email > div,.password > div{
+    width: 100%;
+}
+.email input::placeholder,.password input::placeholder{
+    color: #CDCDCD;
+    font-size: 12px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.email fieldset,.password fieldset{
+    border-radius: 4px;
+    border: 1px solid #E5E5E5 !important;
+}
+.email>label,.password>label{
+    color: #6C6C6C;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+.primary{
+    width: 100%;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    margin: 30px 0;
+    background: #FEAF00 !important;
+}
+.primary span{
+    color: #FFF;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.forgotPassword{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 27px 0 41px 0;
+}
+.forgotPassword >p {
+    color: #6C6C6C;
+    font-size: 14px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.forgotPassword > a{
+    color: #FEAF00 !important;
+    text-decoration-color: #FEAF00 !important;
+}
+.context{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.context > div{
+    width: calc((100% / 2) - 4px);
+}
+
+.hCall {
+    height: 85px;
+}
+
+.bgColor {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #F8F8F8;
+    z-index: -1;
+}
+
+.tableHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5;
+
+}
+
+.tableWrapper {
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.personImg {
+    height: 55px;
+    width: 65px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 4px;
+    box-sizing: content-box;
+}
+
+.searchWrapper {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    position: relative;
+    height: 37px;
+    border-radius: 8px;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+}
+
+.search {
+    padding: 9px 0 11px 13px;
+}
+
+.searchIcon {
+    padding: 9px 14px 11px 13px;
+    color: #C4C4C4;
+}
+
+.addBtn {
+    height: 44px;
+    width: 199px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    background: #FEAF00;
+}
+
+.addBtn span {
+    width: 100%;
+    text-align: center;
+}
+
+.paginationBtns {
+    align-items: center;
+    padding: 0 30px;
+}
+
+.warning {
+    padding: 30px;
+}
+
+.warningInfo {
+    font-family: Montserrat-Regular;
+    padding: 20px 0;
+}
+
+.warningTitle {
+    font-family: Montserrat-Bold;
+}
+
+.warningContent {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    width: 300px;
+    height: 150px !important;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.confirm {
+    width: 100%;
+    background-color: #F8D442 !important;
+}
+
+.cancel {
+    width: 100%;
+    border: 1px solid #F8D442 !important;
+    color: #F8D442 !important;
+}
+.showBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.showBtn svg{
+    fill: #FEAF00;
+    height: 1em;
+}
